@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Baronne Joias</title>
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+</head>
+<body>
+    <header>
+        <div class="logo">Baronne</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <main class="container">
+            <div class="tech-circle">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="list">
+
+                 <div class="item active">
+                    <div class="product-img">
+                        <img src="assets/img/colar.png" alt="Conjunto Imperiale">
+                    </div>
+                    <div class="content">
+                        <p class="product-tag">Novo Lançamento</p>
+                        <p class="product-name">Conjunto Imperialle</p>
+                        <p class="description"> 
+                            Composto por colar, anel, brincos e pulseira, ideal para mulheres que desejam destacar sua
+                            beleza com acessórios elegantes. Perfeito para ocasiões especiais ou para
+                            adicionar um toque de luxo ao visual do dia a dia.
+                        </p>
+                        <button class="btn">Ver Detalhes</button> 
+                    </div>
+                 </div>   
+
+                 <div class="item">
+                    <div class="product-img">
+                        <img src="assets/img/solitario.png" alt="Anel Solitário Aurora">
+                    </div>
+                    <div class="content">
+                        <p class="product-tag">Peça Exclusiva</p>
+                        <p class="product-name">Solitário Aurora</p>
+                        <p class="description"> 
+                            O anel Solitário Aurora é a expressão perfeita de elegância e delicadeza.
+                            Com uma pedra central brilhante que se destaca pelo seu brilho e sofisticação.
+                        </p>
+                        <button class="btn">Ver Detalhes</button> 
+                    </div>
+
+                 </div>
+
+                 <div class="item">
+                    <div class="product-img">
+                        <img src="assets/img/anel.png" alt="Aliança Eternelle">
+                    </div>
+                    <div class="content">
+                        <p class="product-tag">Elegância e União</p>
+                        <p class="product-name">Aliança Eternelle</p>
+                        <p class="description"> 
+                            Esta peça foi criada para representar momentos especiais  e inesquecíveis. 
+                            Seu acabamento refinado traz um toque de luxo e romantismo, tornando-a perfeita
+                            para celebrar o amor e a conexão entre duas pessoas. 
+                        </p>
+                        <button class="btn">Ver Detalhes</button> 
+                    </div>
+
+                 </div>
+            </div>
+
+            <div class="arrows">
+                <button class="arrow-btn" id="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>
+                </button>
+                <button class="arrow-btn" id="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                      </svg>
+                </button>
+            </div>
+
+            <div class="indicators">
+                <div class="numbers">01</div>
+                <div class="dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+<script src="./scripts.js"></script>
+</body>
+</html>
